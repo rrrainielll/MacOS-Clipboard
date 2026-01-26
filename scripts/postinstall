@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Give the app appropriate permissions if necessary
+# Note: Accessibility permissions must still be granted by the user manually in System Settings
+chmod +x "/Applications/ClipboardApp.app/Contents/MacOS/ClipboardApp"
+
+# Exit with success
+exit 0

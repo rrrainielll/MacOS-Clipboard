@@ -1,0 +1,36 @@
+{
+  "" : {
+    "const-values" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary.swiftconstvalues",
+    "dependencies" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary.d",
+    "diagnostics" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary.dia",
+    "emit-module-dependencies" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary-emit-module.dia",
+    "pch" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardApp-primary.swiftdeps"
+  },
+  "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/App.swift" : {
+    "index-unit-output-path" : "/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/App.o",
+    "llvm-bc" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/App.bc",
+    "object" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/App.o"
+  },
+  "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift" : {
+    "index-unit-output-path" : "/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardManager.o",
+    "llvm-bc" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardManager.bc",
+    "object" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ClipboardManager.o"
+  },
+  "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift" : {
+    "index-unit-output-path" : "/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/ContentView.o"
+  },
+  "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift" : {
+    "index-unit-output-path" : "/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/HotKeyManager.o",
+    "llvm-bc" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/HotKeyManager.bc",
+    "object" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/HotKeyManager.o"
+  },
+  "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift" : {
+    "index-unit-output-path" : "/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/SettingsView.o",
+    "llvm-bc" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/SettingsView.bc",
+    "object" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/apple/Intermediates.noindex/ClipboardApp.build/Release/ClipboardApp.build/Objects-normal/arm64/SettingsView.o"
+  }
+}

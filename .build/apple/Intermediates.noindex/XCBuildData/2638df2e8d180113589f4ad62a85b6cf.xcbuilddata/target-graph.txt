@@ -1,0 +1,4 @@
+Target dependency graph (2 targets)
+Target 'AllExcludingTests' in project 'Aggregate'
+➜ Explicit dependency on target 'ClipboardApp_-50C54A523FDF3E43_PackageProduct' in project 'ClipboardApp'
+Target 'ClipboardApp_-50C54A523FDF3E43_PackageProduct' in project 'ClipboardApp' (no dependencies)

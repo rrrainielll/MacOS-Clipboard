@@ -1,0 +1,287 @@
+{
+  "builtTestProducts" : [
+
+  ],
+  "copyCommands" : {
+
+  },
+  "explicitTargetDependencyImportCheckingMode" : {
+    "none" : {
+
+    }
+  },
+  "generatedSourceTargetSet" : [
+
+  ],
+  "pluginDescriptions" : [
+
+  ],
+  "swiftCommands" : {
+    "C.ClipboardApp-x86_64-apple-macosx15.0-debug.module" : {
+      "executable" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "fileList" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/sources",
+      "importPath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/Modules",
+      "inputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/sources"
+        }
+      ],
+      "isLibrary" : false,
+      "moduleName" : "ClipboardApp",
+      "moduleOutputPath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/Modules/ClipboardApp.swiftmodule",
+      "objects" : [
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/App.swift.o",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/ClipboardManager.swift.o",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/ContentView.swift.o",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/HotKeyManager.swift.o",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/SettingsView.swift.o"
+      ],
+      "otherArguments" : [
+        "-target",
+        "x86_64-apple-macosx14.0",
+        "-incremental",
+        "-enable-batch-mode",
+        "-serialize-diagnostics",
+        "-Onone",
+        "-enable-testing",
+        "-j8",
+        "-DSWIFT_PACKAGE",
+        "-DDEBUG",
+        "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+        "-module-cache-path",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+        "-parseable-output",
+        "-Xfrontend",
+        "-entry-point-function-name",
+        "-Xfrontend",
+        "ClipboardApp_main",
+        "-swift-version",
+        "5",
+        "-Xfrontend",
+        "-experimental-lazy-typecheck",
+        "-Xfrontend",
+        "-experimental-skip-all-function-bodies",
+        "-Xfrontend",
+        "-experimental-allow-module-with-compiler-errors",
+        "-Xfrontend",
+        "-empty-abi-descriptor",
+        "-plugin-path",
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+        "-sdk",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-F",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-I",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-L",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+        "-g",
+        "-Xcc",
+        "-isysroot",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+        "-Xcc",
+        "-F",
+        "-Xcc",
+        "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+        "-Xcc",
+        "-fPIC",
+        "-Xcc",
+        "-g",
+        "-package-name",
+        "macos_clipboard"
+      ],
+      "outputFileMapPath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/output-file-map.json",
+      "outputs" : [
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/Modules/ClipboardApp.swiftmodule"
+        }
+      ],
+      "prepareForIndexing" : true,
+      "sources" : [
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/App.swift",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift"
+      ],
+      "tempsPath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build",
+      "wholeModuleOptimization" : false
+    }
+  },
+  "swiftFrontendCommands" : {
+
+  },
+  "swiftTargetScanArgs" : {
+    "ClipboardApp" : [
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc",
+      "-module-name",
+      "ClipboardApp",
+      "-package-name",
+      "macos_clipboard",
+      "-c",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/App.swift",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift",
+      "-I",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/Modules",
+      "-target",
+      "x86_64-apple-macosx14.0",
+      "-incremental",
+      "-enable-batch-mode",
+      "-serialize-diagnostics",
+      "-Onone",
+      "-enable-testing",
+      "-j8",
+      "-DSWIFT_PACKAGE",
+      "-DDEBUG",
+      "-DSWIFT_MODULE_RESOURCE_BUNDLE_UNAVAILABLE",
+      "-module-cache-path",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ModuleCache",
+      "-parseable-output",
+      "-Xfrontend",
+      "-entry-point-function-name",
+      "-Xfrontend",
+      "ClipboardApp_main",
+      "-swift-version",
+      "5",
+      "-Xfrontend",
+      "-experimental-lazy-typecheck",
+      "-Xfrontend",
+      "-experimental-skip-all-function-bodies",
+      "-Xfrontend",
+      "-experimental-allow-module-with-compiler-errors",
+      "-Xfrontend",
+      "-empty-abi-descriptor",
+      "-plugin-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/host/plugins/testing",
+      "-sdk",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-F",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-I",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-L",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib",
+      "-g",
+      "-Xcc",
+      "-isysroot",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX26.2.sdk",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks",
+      "-Xcc",
+      "-F",
+      "-Xcc",
+      "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/PrivateFrameworks",
+      "-Xcc",
+      "-fPIC",
+      "-Xcc",
+      "-g",
+      "-package-name",
+      "macos_clipboard",
+      "-driver-use-frontend-path",
+      "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    ]
+  },
+  "targetDependencyMap" : {
+    "ClipboardApp" : [
+
+    ]
+  },
+  "testDiscoveryCommands" : {
+
+  },
+  "testEntryPointCommands" : {
+
+  },
+  "traitConfiguration" : {
+    "default" : {
+
+    }
+  },
+  "writeCommands" : {
+    "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/sources" : {
+      "alwaysOutOfDate" : false,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<sources-file-list>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/App.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift"
+        }
+      ],
+      "outputFilePath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/sources"
+    },
+    "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt" : {
+      "alwaysOutOfDate" : true,
+      "inputs" : [
+        {
+          "kind" : "virtual",
+          "name" : "<swift-get-version>"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+        }
+      ],
+      "outputFilePath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/swift-version--58304C5D6DBC2206.txt"
+    }
+  }
+}
