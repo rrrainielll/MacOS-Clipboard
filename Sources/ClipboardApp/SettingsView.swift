@@ -3,6 +3,7 @@ import SwiftUI
 
 struct SettingsView: View {
     @ObservedObject var hotKeyManager = HotKeyManager.shared
+    @ObservedObject var launchAtLoginManager = LaunchAtLoginManager.shared
     @State private var isRecording = false
 
     var body: some View {
@@ -27,6 +28,26 @@ struct SettingsView: View {
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 16) {
+
+                    // General Section
+                    VStack(alignment: .leading, spacing: 10) {
+                        Text("General")
+                            .font(.subheadline)
+                            .fontWeight(.semibold)
+
+                        Toggle(
+                            "Launch at Login",
+                            isOn: Binding(
+                                get: { launchAtLoginManager.isEnabled },
+                                set: { launchAtLoginManager.setLaunchAtLogin(enabled: $0) }
+                            )
+                        )
+                        .toggleStyle(SwitchToggleStyle(tint: .accentColor))
+                        .font(.body)
+                    }
+
+                    Divider()
+
                     // Shortcut Section
                     VStack(alignment: .leading, spacing: 10) {
                         Text("Global Shortcut")
@@ -110,7 +131,7 @@ struct SettingsView: View {
                 .padding()
             }
         }
-        .frame(width: 350, height: 300)
+        .frame(width: 350, height: 350)
         .background(
             ShortcutRecorderView(isRecording: $isRecording) { keyCode, modifiers in
                 hotKeyManager.updateHotKey(keyCode: keyCode, modifiers: modifiers)

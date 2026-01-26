@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 # Configuration
 APP_NAME="ClipboardApp"
@@ -10,11 +11,9 @@ INSTALL_LOCATION="/Applications"
 echo "--- Building $APP_NAME in Release Mode ---"
 
 # 1. Build the project using Swift Package Manager
-# We build for the current architecture.
 swift build -c release
 
 # Find the binary path more reliably
-# SPM output path can vary based on the architecture/OS version
 BIN_PATH=$(swift build -c release --show-bin-path)
 BINARY_PATH="$BIN_PATH/$APP_NAME"
 
@@ -37,7 +36,11 @@ echo "Using binary at: $BINARY_PATH"
 echo "--- Creating App Bundle ---"
 
 # 2. Create the .app bundle structure
-rm -rf "$APP_NAME.app"
+# Try to remove existing bundle, fail if permissions denied (user must fix manually)
+if [ -d "$APP_NAME.app" ]; then
+    rm -rf "$APP_NAME.app" || { echo "Error: Failed to remove existing $APP_NAME.app. You may need to run 'sudo rm -rf $APP_NAME.app'"; exit 1; }
+fi
+
 mkdir -p "$APP_NAME.app/Contents/MacOS"
 mkdir -p "$APP_NAME.app/Contents/Resources"
 
@@ -73,12 +76,19 @@ EOF
 echo "--- Generating Package Installer ---"
 
 # 5. Build the .pkg
-# Requires the 'scripts' directory containing 'postinstall'
+# Ensure scripts directory exists
 if [ ! -d "scripts" ]; then
     mkdir -p scripts
     cat > scripts/postinstall <<EOF
 #!/bin/bash
-chmod +x "/Applications/$APP_NAME.app/Contents/MacOS/$APP_NAME"
+APP_PATH="/Applications/$APP_NAME.app"
+EXECUTABLE_PATH="\$APP_PATH/Contents/MacOS/$APP_NAME"
+chmod +x "\$EXECUTABLE_PATH"
+CURRENT_USER=\$(stat -f%Su /dev/console)
+if [ -n "\$CURRENT_USER" ] && [ "\$CURRENT_USER" != "root" ]; then
+    USER_ID=\$(id -u "\$CURRENT_USER")
+    launchctl asuser "\$USER_ID" open "\$APP_PATH"
+fi
 exit 0
 EOF
     chmod +x scripts/postinstall

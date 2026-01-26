@@ -20,6 +20,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
     func applicationDidFinishLaunching(_ notification: Notification) {
         NSApp.setActivationPolicy(.accessory)
 
+        // Check for first run and enable Launch at Login
+        let hasLaunchedBefore = UserDefaults.standard.bool(forKey: "hasLaunchedBefore")
+        if !hasLaunchedBefore {
+            LaunchAtLoginManager.shared.setLaunchAtLogin(enabled: true)
+            UserDefaults.standard.set(true, forKey: "hasLaunchedBefore")
+        }
+
         // Create the SwiftUI view that provides the window contents.
         let contentView = ContentView(clipboardManager: clipboardManager)
 

@@ -40,6 +40,10 @@
         },
         {
           "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/LaunchAtLoginManager.swift"
+        },
+        {
+          "kind" : "file",
           "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift"
         },
         {
@@ -59,6 +63,7 @@
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/ClipboardManager.swift.o",
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/ContentView.swift.o",
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/HotKeyManager.swift.o",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/LaunchAtLoginManager.swift.o",
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build/SettingsView.swift.o"
       ],
       "otherArguments" : [
@@ -135,6 +140,7 @@
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift",
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift",
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift",
+        "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/LaunchAtLoginManager.swift",
         "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift"
       ],
       "tempsPath" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/ClipboardApp.build",
@@ -156,6 +162,7 @@
       "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ClipboardManager.swift",
       "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/ContentView.swift",
       "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift",
+      "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/LaunchAtLoginManager.swift",
       "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/SettingsView.swift",
       "-I",
       "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/.build/index-build/x86_64-apple-macosx/debug/Modules",
@@ -261,6 +268,10 @@
         {
           "kind" : "file",
           "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/HotKeyManager.swift"
+        },
+        {
+          "kind" : "file",
+          "name" : "/Users/rainielmontanez/Documents/GitHub/MacOS-Clipboard/Sources/ClipboardApp/LaunchAtLoginManager.swift"
         },
         {
           "kind" : "file",

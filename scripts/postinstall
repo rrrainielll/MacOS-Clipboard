@@ -1,8 +1,20 @@
 #!/bin/bash
 
-# Give the app appropriate permissions if necessary
-# Note: Accessibility permissions must still be granted by the user manually in System Settings
-chmod +x "/Applications/ClipboardApp.app/Contents/MacOS/ClipboardApp"
+APP_PATH="/Applications/ClipboardApp.app"
+EXECUTABLE_PATH="$APP_PATH/Contents/MacOS/ClipboardApp"
 
-# Exit with success
+# 1. Ensure executable permissions
+chmod +x "$EXECUTABLE_PATH"
+
+# 2. Launch the app for the currently logged-in user
+# The installer runs as root, so we must identify the console user to launch the app in their context.
+CURRENT_USER=$(stat -f%Su /dev/console)
+
+if [ -n "$CURRENT_USER" ] && [ "$CURRENT_USER" != "root" ]; then
+    USER_ID=$(id -u "$CURRENT_USER")
+
+    # Use launchctl asuser to run 'open' as the logged-in user
+    launchctl asuser "$USER_ID" open "$APP_PATH"
+fi
+
 exit 0
