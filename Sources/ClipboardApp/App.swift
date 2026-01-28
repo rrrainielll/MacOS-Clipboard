@@ -44,6 +44,12 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSWindowDelegate {
         panel.titleVisibility = .hidden
         panel.titlebarAppearsTransparent = true
         panel.isMovableByWindowBackground = true
+
+        // Enable transparency for Glassmorphism
+        panel.isOpaque = false
+        panel.backgroundColor = .clear
+        panel.hasShadow = true
+
         panel.contentView = NSHostingView(rootView: contentView)
         panel.center()
 
